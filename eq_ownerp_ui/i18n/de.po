@@ -1,0 +1,422 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* eq_ownerp_ui
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0-25.12.15\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-27 18:01+0000\n"
+"PO-Revision-Date: 2025-12-27 19:03+0100\n"
+"Last-Translator: Martin Schmid <m.schmid@equitania.de>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.8\n"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_colors__eq_apps_color
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_apps_color
+msgid "App-Icon Color"
+msgstr "Farbe des App-Symbols"
+
+#. module: eq_ownerp_ui
+#: model_terms:ir.ui.view,arch_db:eq_ownerp_ui.eq_template_colors_form
+msgid "Apply"
+msgstr "Übernehmen"
+
+#. module: eq_ownerp_ui
+#: model_terms:ir.ui.view,arch_db:eq_ownerp_ui.res_config_settings_view_form_eq_ownerp_ui
+msgid "Apply Theme Colors"
+msgstr "Farben aus Theme übernehmen"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_res_users_settings__eq_color_scheme
+msgid "Backend Color Scheme"
+msgstr "Farbschema des Backends"
+
+#. module: eq_ownerp_ui
+#: model_terms:ir.ui.view,arch_db:eq_ownerp_ui.eq_template_colors_form
+msgid "Background"
+msgstr "Hintergrund"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_background_image
+msgid "Background Image"
+msgstr "Hintergrundbild"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_background_image_name
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_res_company__eq_background_image_name
+msgid "Background Image Name"
+msgstr "Name des Hintergrundbildes"
+
+#. module: eq_ownerp_ui
+#: model_terms:ir.ui.view,arch_db:eq_ownerp_ui.eq_colors_form
+#: model_terms:ir.ui.view,arch_db:eq_ownerp_ui.eq_template_colors_form
+msgid "Basic Colors"
+msgstr "Basisfarben"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_colors__eq_basic_secondary_color
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_basic_secondary_color
+msgid "Basic Secondary Color"
+msgstr "Grundlegende Sekundärfarbe"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_colors__eq_basic_text_color
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_basic_text_color
+msgid "Basic Text Color"
+msgstr "Grundlegende Textfarbe"
+
+#. module: eq_ownerp_ui
+#: model_terms:ir.ui.view,arch_db:eq_ownerp_ui.res_config_settings_view_form_eq_ownerp_ui
+msgid "Button Color"
+msgstr "Farbe der Schaltflächen"
+
+#. module: eq_ownerp_ui
+#: model_terms:ir.ui.view,arch_db:eq_ownerp_ui.res_config_settings_view_form_eq_ownerp_ui
+msgid "Button Text"
+msgstr "Schaltflächentext"
+
+#. module: eq_ownerp_ui
+#: model_terms:ir.ui.view,arch_db:eq_ownerp_ui.eq_template_colors_form
+#: model_terms:ir.ui.view,arch_db:eq_ownerp_ui.eq_colors_form
+msgid "Buttons"
+msgstr "Schaltflächen"
+
+#. module: eq_ownerp_ui
+#: model:ir.model,name:eq_ownerp_ui.model_eq_template_colors
+#: model_terms:ir.ui.view,arch_db:eq_ownerp_ui.eq_colors_form
+#: model_terms:ir.ui.view,arch_db:eq_ownerp_ui.eq_template_colors_form
+msgid "Color Picker"
+msgstr "Farbwähler"
+
+#. module: eq_ownerp_ui
+#: model:ir.model,name:eq_ownerp_ui.model_eq_colors
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_color_template_id
+msgid "Color Template"
+msgstr "Farbvorlage"
+
+#. module: eq_ownerp_ui
+#: model:ir.ui.menu,name:eq_ownerp_ui.eq_colors_menu
+msgid "Colors"
+msgstr "Farben"
+
+#. module: eq_ownerp_ui
+#: model:ir.model,name:eq_ownerp_ui.model_res_company
+msgid "Companies"
+msgstr "Unternehmen"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_company_id
+msgid "Company"
+msgstr "Firma"
+
+#. module: eq_ownerp_ui
+#: model_terms:ir.ui.view,arch_db:eq_ownerp_ui.res_config_settings_view_form_eq_ownerp_ui
+msgid ""
+"Copy the primary button colors of the backend theme into the e-mail button "
+"colors"
+msgstr ""
+"Die primären Schaltflächenfarben des Backend-Themes in die E-Mail-"
+"Schaltflächen übernehmen"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_colors__create_uid
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__create_uid
+msgid "Created by"
+msgstr "Erstellt von"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_colors__create_date
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__create_date
+msgid "Created on"
+msgstr "Erstellt am"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields.selection,name:eq_ownerp_ui.selection__res_users_settings__eq_color_scheme__dark
+msgid "Dark"
+msgstr "Dunkel"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_dark_apps_color
+msgid "Dark App-Icon Color"
+msgstr "Farbe des App-Symbols (dunkel)"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_dark_basic_secondary_color
+msgid "Dark Basic Secondary Color"
+msgstr "Sekundärfarbe (dunkel)"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_dark_basic_text_color
+msgid "Dark Basic Text Color"
+msgstr "Textfarbe (dunkel)"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_dark_list_hoover_background
+msgid "Dark Hover Backgroundcolor"
+msgstr "Hintergrundfarbe bei Mouseover (dunkel)"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_dark_link_color
+msgid "Dark Link Color"
+msgstr "Linkfarbe (dunkel)"
+
+#. module: eq_ownerp_ui
+#. odoo-javascript
+#: code:addons/eq_ownerp_ui/static/src/js/eq_dark_mode.js:0
+#: model_terms:ir.ui.view,arch_db:eq_ownerp_ui.eq_template_colors_form
+msgid "Dark Mode"
+msgstr "Dunkelmodus"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_dark_navi_background
+msgid "Dark Navigation Background"
+msgstr "Hintergrund der Navigation (dunkel)"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_dark_navi_fontcolor
+msgid "Dark Navigation Fontcolor"
+msgstr "Schriftfarbe der Navigation (dunkel)"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_dark_navi_hover
+msgid "Dark Navigation Hover Background"
+msgstr "Hintergrund der Navigation bei Mouseover (dunkel)"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_dark_navi_hover_fontcolor
+msgid "Dark Navigation Hover Font Color"
+msgstr "Schriftfarbe der Navigation bei Mouseover (dunkel)"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_colors__eq_is_dark
+msgid "Dark Palette"
+msgstr "Dunkle Palette"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_dark_list_primary_background
+msgid "Dark Primary Backgroundcolor"
+msgstr "Primäre Hintergrundfarbe (dunkel)"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_dark_btn_primary_background
+msgid "Dark Primary Button Backgroundcolor"
+msgstr "Hintergrundfarbe der primären Schaltfläche (dunkel)"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_dark_btn_primary_fontcolor
+msgid "Dark Primary Button Fontcolor"
+msgstr "Schriftfarbe der primären Schaltfläche (dunkel)"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_dark_list_secondary_background
+msgid "Dark Secondary Backgroundcolor"
+msgstr "Sekundäre Hintergrundfarbe (dunkel)"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_dark_btn_secondary_background
+msgid "Dark Secondary Button Backgroundcolor"
+msgstr "Hintergrundfarbe der sekundären Schaltfläche (dunkel)"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_dark_btn_secondary_fontcolor
+msgid "Dark Secondary Button Fontcolor"
+msgstr "Schriftfarbe der sekundären Schaltfläche (dunkel)"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_colors__eq_dark_variant_id
+msgid "Dark Variant"
+msgstr "Dunkle Variante"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_dark_view_background
+msgid "Dark View Background"
+msgstr "Hintergrund der Ansicht (dunkel)"
+
+#. module: eq_ownerp_ui
+#: model_terms:ir.ui.view,arch_db:eq_ownerp_ui.eq_colors_form
+#: model_terms:ir.ui.view,arch_db:eq_ownerp_ui.eq_template_colors_form
+msgid "Discard"
+msgstr "Verwerfen"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_colors__display_name
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__display_name
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields.selection,name:eq_ownerp_ui.selection__res_users_settings__eq_color_scheme__system
+msgid "Follow System"
+msgstr "System folgen"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_colors__eq_list_hoover_background
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_list_hoover_background
+msgid "Hover Backgroundcolor"
+msgstr "Hintergrundfarbe bei Mouseover"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_colors__id
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__id
+msgid "ID"
+msgstr ""
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_colors__write_uid
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__write_uid
+msgid "Last Updated by"
+msgstr "Zuletzt aktualisiert von"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_colors__write_date
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__write_date
+msgid "Last Updated on"
+msgstr "Zuletzt geändert am"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields.selection,name:eq_ownerp_ui.selection__res_users_settings__eq_color_scheme__light
+msgid "Light"
+msgstr "Hell"
+
+#. module: eq_ownerp_ui
+#: model_terms:ir.ui.view,arch_db:eq_ownerp_ui.eq_template_colors_form
+msgid "Light Mode"
+msgstr "Hellmodus"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_colors__eq_link_color
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_link_color
+msgid "Link Color"
+msgstr "Linkfarbe"
+
+#. module: eq_ownerp_ui
+#: model_terms:ir.ui.view,arch_db:eq_ownerp_ui.eq_colors_form
+#: model_terms:ir.ui.view,arch_db:eq_ownerp_ui.eq_template_colors_form
+msgid "List View"
+msgstr "Listenansicht"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_colors__name
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__name
+msgid "Name"
+msgstr ""
+
+#. module: eq_ownerp_ui
+#: model_terms:ir.ui.view,arch_db:eq_ownerp_ui.eq_colors_form
+#: model_terms:ir.ui.view,arch_db:eq_ownerp_ui.eq_template_colors_form
+msgid "Navigation"
+msgstr ""
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_colors__eq_navi_background
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_navi_background
+msgid "Navigation Background"
+msgstr "Hintergrund der Navigation"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_colors__eq_navi_fontcolor
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_navi_fontcolor
+msgid "Navigation Fontcolor"
+msgstr "Navigation Schriftfarbe"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_colors__eq_navi_hover
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_navi_hover
+msgid "Navigation Hover Background"
+msgstr "Navigations-Hover-Hintergrund"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_colors__eq_navi_hover_fontcolor
+msgid "Navigation Hover Font"
+msgstr "Navigation Hover Schriftart"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_navi_hover_fontcolor
+msgid "Navigation Hover Font Color"
+msgstr "Navigation Hover Schriftfarbe"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_colors__eq_list_primary_background
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_list_primary_background
+msgid "Primary Backgroundcolor"
+msgstr "Primäre Hintergrundfarbe"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_colors__eq_btn_primary_background
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_btn_primary_background
+msgid "Primary Button Backgroundcolor"
+msgstr "Hintergrundfarbe der primären Schaltfläche"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_colors__eq_btn_primary_fontcolor
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_btn_primary_fontcolor
+msgid "Primary Button Fontcolor"
+msgstr "Primäre Schaltfläche Schriftfarbe"
+
+#. module: eq_ownerp_ui
+#: model_terms:ir.ui.view,arch_db:eq_ownerp_ui.eq_template_colors_form
+msgid "Reset All Colors"
+msgstr "Alle Farben zurücksetzen"
+
+#. module: eq_ownerp_ui
+#: model_terms:ir.ui.view,arch_db:eq_ownerp_ui.eq_colors_form
+msgid "Save"
+msgstr "speichern"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_colors__eq_list_secondary_background
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_list_secondary_background
+msgid "Secondary Backgroundcolor"
+msgstr "Sekundäre Hintergrundfarbe"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_colors__eq_btn_secondary_background
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_btn_secondary_background
+msgid "Secondary Button Backgroundcolor"
+msgstr "Hintergrundfarbe der sekundären Schaltfläche"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_colors__eq_btn_secondary_fontcolor
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_template_colors__eq_btn_secondary_fontcolor
+msgid "Secondary Button Fontcolor"
+msgstr "Sekundäre Schaltfläche Schriftfarbe"
+
+#. module: eq_ownerp_ui
+#: model:ir.actions.act_window,name:eq_ownerp_ui.eq_colors_action
+#: model:ir.actions.act_window,name:eq_ownerp_ui.eq_template_colors_action
+#: model:ir.ui.menu,name:eq_ownerp_ui.eq_template_colors_menu
+msgid "Template Colors"
+msgstr "Farben der Vorlage"
+
+#. module: eq_ownerp_ui
+#: model:ir.ui.menu,name:eq_ownerp_ui.eq_color_template_menu
+msgid "Templates"
+msgstr "Vorlagen"
+
+#. module: eq_ownerp_ui
+#: model_terms:ir.ui.view,arch_db:eq_ownerp_ui.eq_template_colors_form
+msgid ""
+"These colors apply when a user switches the backend to dark mode\n"
+"                                    via the user menu. Picking a color template fills them in\n"
+"                                    automatically."
+msgstr ""
+"Diese Farben gelten, wenn ein Benutzer das Backend über das Benutzermenü\n"
+"                                    auf den Dunkelmodus umschaltet. Beim Auswählen einer Farbvorlage\n"
+"                                    werden sie automatisch gefüllt."
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_eq_colors__eq_view_background
+msgid "View Background"
+msgstr "Hintergrund der Ansicht"
+
+#. module: eq_ownerp_ui
+#: model:ir.model.fields,field_description:eq_ownerp_ui.field_res_company__eq_background_image
+msgid "ownERP Home Menu Background Image"
+msgstr "ownERP Startmenü-Hintergrundbild"

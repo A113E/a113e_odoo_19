@@ -1,0 +1,18 @@
+{
+  "title": {
+    "de": "ownERP-UI Farbanpassung",
+    "en": "ownERP UI Color Customization"
+  },
+  "pages": [
+    {
+      "id": "overview",
+      "title": {
+        "de": "Backend-Farben anpassen",
+        "en": "Customizing Backend Colors"
+      },
+      "models": ["eq.colors", "eq.template.colors", "res.users.settings"],
+      "actions": [],
+      "last_updated": "2026-08-05"
+    }
+  ]
+}

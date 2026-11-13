@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <!-- The e-mail template colours are the only colour fields in the settings
+         that do not come from this module. Odoo renders them as a bare circle
+         with a label squeezed next to it, which sits oddly among the theme's
+         own colour fields (swatch + hex input). Same widget, same layout here. -->
+    <record id="res_config_settings_view_form_eq_ownerp_ui" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.eq_ownerp_ui</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="mail.res_config_settings_view_form" />
+        <field name="arch" type="xml">
+
+            <xpath
+                expr="//field[@name='email_primary_color']/parent::div"
+                position="replace"
+            >
+                <div class="mt16">
+                    <label
+                        for="email_primary_color"
+                        string="Button Text"
+                        class="o_light_label d-block mb-1"
+                    />
+                    <field name="email_primary_color" widget="eq_color" />
+                </div>
+            </xpath>
+
+            <xpath
+                expr="//field[@name='email_secondary_color']/parent::div"
+                position="replace"
+            >
+                <div class="mt16">
+                    <label
+                        for="email_secondary_color"
+                        string="Button Color"
+                        class="o_light_label d-block mb-1"
+                    />
+                    <field name="email_secondary_color" widget="eq_color" />
+                </div>
+            </xpath>
+
+            <xpath expr="//button[@name='open_mail_templates']" position="before">
+                <div class="mt16">
+                    <button
+                        name="action_eq_apply_theme_colors_to_email"
+                        type="object"
+                        string="Apply Theme Colors"
+                        icon="fa-paint-brush"
+                        class="btn btn-link p-0"
+                        title="Copy the primary button colors of the backend theme into the e-mail button colors"
+                    />
+                </div>
+            </xpath>
+
+        </field>
+    </record>
+</odoo>

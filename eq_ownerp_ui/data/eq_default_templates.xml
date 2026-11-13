@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <record id="eq_default_blue" model="eq.colors">
+            <field name="name">Default Blue</field>
+            <field name="eq_navi_background">#38669b</field>
+            <field name="eq_navi_fontcolor">#ffffff</field>
+            <field name="eq_navi_hover">#d5edf8</field>
+            <field name="eq_navi_hover_fontcolor">#1e2c52</field>
+            <field name="eq_apps_color">#3683bf</field>
+            <field name="eq_basic_text_color">#141414</field>
+            <field name="eq_basic_secondary_color">#063861</field>
+            <field name="eq_link_color">#4d66b0</field>
+            <field name="eq_btn_primary_background">#245d9e</field>
+            <field name="eq_btn_primary_fontcolor">#ffffff</field>
+            <field name="eq_btn_secondary_background">#d6d6d6</field>
+            <field name="eq_btn_secondary_fontcolor">#5D5D5D</field>
+            <field name="eq_list_primary_background">#ffffff</field>
+            <field name="eq_list_secondary_background">#d5edf8</field>
+            <field name="eq_list_hoover_background">#6abade</field>
+        </record>
+        <record id="eq_default_red" model="eq.colors">
+            <field name="name">Default Red</field>
+            <field name="eq_navi_background">#b02a0f</field>
+            <field name="eq_navi_fontcolor">#FFFFFF</field>
+            <field name="eq_navi_hover">#efdcdc</field>
+            <field name="eq_navi_hover_fontcolor">#7a1307</field>
+            <field name="eq_apps_color">#8f422f</field>
+            <field name="eq_basic_text_color">#141414</field>
+            <field name="eq_basic_secondary_color">#767676</field>
+            <field name="eq_link_color">#A63F23</field>
+            <field name="eq_btn_primary_background">#D24526</field>
+            <field name="eq_btn_primary_fontcolor">#ffffff</field>
+            <field name="eq_btn_secondary_background">#cfcfcf</field>
+            <field name="eq_btn_secondary_fontcolor">#8E430E</field>
+            <field name="eq_list_primary_background">#ffffff</field>
+            <field name="eq_list_secondary_background">#efdcdc</field>
+            <field name="eq_list_hoover_background">#eb7f7f</field>
+        </record>
+        <record id="eq_default_green" model="eq.colors">
+            <field name="name">Default Green</field>
+            <field name="eq_navi_background">#467a17</field>
+            <field name="eq_navi_fontcolor">#ffffff</field>
+            <field name="eq_navi_hover">#d6f8d5</field>
+            <field name="eq_navi_hover_fontcolor">#275f22</field>
+            <field name="eq_apps_color">#05a31e</field>
+            <field name="eq_basic_text_color">#141414</field>
+            <field name="eq_basic_secondary_color">#056936</field>
+            <field name="eq_link_color">#088A1D</field>
+            <field name="eq_btn_primary_background">#4A8514</field>
+            <field name="eq_btn_primary_fontcolor">#ffffff</field>
+            <field name="eq_btn_secondary_background">#dbdbdb</field>
+            <field name="eq_btn_secondary_fontcolor">#064114</field>
+            <field name="eq_list_primary_background">#ffffff</field>
+            <field name="eq_list_secondary_background">#d6f8d5</field>
+            <field name="eq_list_hoover_background">#96f593</field>
+        </record>
+        <record id="eq_default_grey" model="eq.colors">
+            <field name="name">Default Grey</field>
+            <field name="eq_navi_background">#575757</field>
+            <field name="eq_navi_fontcolor">#ffffff</field>
+            <field name="eq_navi_hover">#e8e8e8</field>
+            <field name="eq_navi_hover_fontcolor">#414141</field>
+            <field name="eq_apps_color">#505050</field>
+            <field name="eq_basic_text_color">#141414</field>
+            <field name="eq_basic_secondary_color">#567785</field>
+            <field name="eq_link_color">#405173</field>
+            <field name="eq_btn_primary_background">#707070</field>
+            <field name="eq_btn_primary_fontcolor">#FFFFFF</field>
+            <field name="eq_btn_secondary_background">#cfcfcf</field>
+            <field name="eq_btn_secondary_fontcolor">#373737</field>
+            <field name="eq_list_primary_background">#ffffff</field>
+            <field name="eq_list_secondary_background">#e8e8e8</field>
+            <field name="eq_list_hoover_background">#8f8f8f</field>
+        </record>
+        <!-- Corporate Purple - Software, Creative Agencies, Consulting, Education -->
+        <record id="eq_default_purple" model="eq.colors">
+            <field name="name">Corporate Purple</field>
+            <field name="eq_navi_background">#5B2C6F</field>
+            <field name="eq_navi_fontcolor">#FFFFFF</field>
+            <field name="eq_navi_hover">#E8DAEF</field>
+            <field name="eq_navi_hover_fontcolor">#3D1A4D</field>
+            <field name="eq_apps_color">#7D3C98</field>
+            <field name="eq_basic_text_color">#141414</field>
+            <field name="eq_basic_secondary_color">#6C3483</field>
+            <field name="eq_link_color">#7D3C98</field>
+            <field name="eq_btn_primary_background">#6C3483</field>
+            <field name="eq_btn_primary_fontcolor">#FFFFFF</field>
+            <field name="eq_btn_secondary_background">#D7BDE2</field>
+            <field name="eq_btn_secondary_fontcolor">#4A235A</field>
+            <field name="eq_list_primary_background">#FFFFFF</field>
+            <field name="eq_list_secondary_background">#F5EEF8</field>
+            <field name="eq_list_hoover_background">#D7BDE2</field>
+        </record>
+        <!-- Tech Teal - IT, SaaS, Healthtech, Fintech, Startups -->
+        <record id="eq_default_teal" model="eq.colors">
+            <field name="name">Tech Teal</field>
+            <field name="eq_navi_background">#0E6655</field>
+            <field name="eq_navi_fontcolor">#FFFFFF</field>
+            <field name="eq_navi_hover">#D5F5E3</field>
+            <field name="eq_navi_hover_fontcolor">#0B5345</field>
+            <field name="eq_apps_color">#17A589</field>
+            <field name="eq_basic_text_color">#141414</field>
+            <field name="eq_basic_secondary_color">#117864</field>
+            <field name="eq_link_color">#13856D</field>
+            <field name="eq_btn_primary_background">#14856D</field>
+            <field name="eq_btn_primary_fontcolor">#FFFFFF</field>
+            <field name="eq_btn_secondary_background">#D1F2EB</field>
+            <field name="eq_btn_secondary_fontcolor">#0B5345</field>
+            <field name="eq_list_primary_background">#FFFFFF</field>
+            <field name="eq_list_secondary_background">#E8F8F5</field>
+            <field name="eq_list_hoover_background">#A3E4D7</field>
+        </record>
+        <!-- Warm Amber - E-Commerce, Gastronomy, Events, Logistics -->
+        <record id="eq_default_amber" model="eq.colors">
+            <field name="name">Warm Amber</field>
+            <field name="eq_navi_background">#A5690E</field>
+            <field name="eq_navi_fontcolor">#FFFFFF</field>
+            <field name="eq_navi_hover">#FCF3CF</field>
+            <field name="eq_navi_hover_fontcolor">#7E5109</field>
+            <field name="eq_apps_color">#D68910</field>
+            <field name="eq_basic_text_color">#141414</field>
+            <field name="eq_basic_secondary_color">#9C640C</field>
+            <field name="eq_link_color">#A5690E</field>
+            <field name="eq_btn_primary_background">#B0621E</field>
+            <field name="eq_btn_primary_fontcolor">#FFFFFF</field>
+            <field name="eq_btn_secondary_background">#FAE5D3</field>
+            <field name="eq_btn_secondary_fontcolor">#784212</field>
+            <field name="eq_list_primary_background">#FFFFFF</field>
+            <field name="eq_list_secondary_background">#FEF9E7</field>
+            <field name="eq_list_hoover_background">#F9E79F</field>
+        </record>
+        <!-- Navy Executive - Banks, Insurance, Legal, Government -->
+        <record id="eq_default_navy" model="eq.colors">
+            <field name="name">Navy Executive</field>
+            <field name="eq_navi_background">#1B2631</field>
+            <field name="eq_navi_fontcolor">#FFFFFF</field>
+            <field name="eq_navi_hover">#D6EAF8</field>
+            <field name="eq_navi_hover_fontcolor">#154360</field>
+            <field name="eq_apps_color">#2E4053</field>
+            <field name="eq_basic_text_color">#141414</field>
+            <field name="eq_basic_secondary_color">#2C3E50</field>
+            <field name="eq_link_color">#2471A3</field>
+            <field name="eq_btn_primary_background">#1A5276</field>
+            <field name="eq_btn_primary_fontcolor">#FFFFFF</field>
+            <field name="eq_btn_secondary_background">#D4E6F1</field>
+            <field name="eq_btn_secondary_fontcolor">#1B4F72</field>
+            <field name="eq_list_primary_background">#FFFFFF</field>
+            <field name="eq_list_secondary_background">#EBF5FB</field>
+            <field name="eq_list_hoover_background">#AED6F1</field>
+        </record>
+        <!-- Earth Sienna - Agriculture, Wood, Organic, Real Estate -->
+        <record id="eq_default_sienna" model="eq.colors">
+            <field name="name">Earth Sienna</field>
+            <field name="eq_navi_background">#6E2C00</field>
+            <field name="eq_navi_fontcolor">#FFFFFF</field>
+            <field name="eq_navi_hover">#F6DDCC</field>
+            <field name="eq_navi_hover_fontcolor">#5B2C0F</field>
+            <field name="eq_apps_color">#873600</field>
+            <field name="eq_basic_text_color">#141414</field>
+            <field name="eq_basic_secondary_color">#7B4B2A</field>
+            <field name="eq_link_color">#935116</field>
+            <field name="eq_btn_primary_background">#873600</field>
+            <field name="eq_btn_primary_fontcolor">#FFFFFF</field>
+            <field name="eq_btn_secondary_background">#EDBB99</field>
+            <field name="eq_btn_secondary_fontcolor">#5B2C0F</field>
+            <field name="eq_list_primary_background">#FFFFFF</field>
+            <field name="eq_list_secondary_background">#FAE5D3</field>
+            <field name="eq_list_hoover_background">#E59866</field>
+        </record>
+        <!-- Modern Magenta - Marketing, Fashion, Gaming, Social Media -->
+        <record id="eq_default_magenta" model="eq.colors">
+            <field name="name">Modern Magenta</field>
+            <field name="eq_navi_background">#922B6E</field>
+            <field name="eq_navi_fontcolor">#FFFFFF</field>
+            <field name="eq_navi_hover">#F5D7E8</field>
+            <field name="eq_navi_hover_fontcolor">#6B1C50</field>
+            <field name="eq_apps_color">#C2185B</field>
+            <field name="eq_basic_text_color">#141414</field>
+            <field name="eq_basic_secondary_color">#8E2468</field>
+            <field name="eq_link_color">#AD1457</field>
+            <field name="eq_btn_primary_background">#A52366</field>
+            <field name="eq_btn_primary_fontcolor">#FFFFFF</field>
+            <field name="eq_btn_secondary_background">#F8BBD9</field>
+            <field name="eq_btn_secondary_fontcolor">#6B1C50</field>
+            <field name="eq_list_primary_background">#FFFFFF</field>
+            <field name="eq_list_secondary_background">#FCE4EC</field>
+            <field name="eq_list_hoover_background">#F48FB1</field>
+        </record>
+        <!--
+            IT-Guy Terminal - matches the theme_itguy website theme (VT220 green
+            screen). The dark palettes carry the theme's phosphor colours as they
+            are; the light ones use darkened equivalents, because the neon values
+            reach barely 1.4:1 contrast on Odoo's white backend and are unusable
+            there. Dark palettes are listed first so the light records can
+            reference them.
+        -->
+        <record id="eq_itguy_green_dark" model="eq.colors">
+            <field name="name">IT-Guy Terminal Green (Dark)</field>
+            <field name="eq_is_dark" eval="True" />
+            <field name="eq_view_background">#000000</field>
+            <field name="eq_navi_background">#000000</field>
+            <field name="eq_navi_fontcolor">#00FF00</field>
+            <field name="eq_navi_hover">#143314</field>
+            <field name="eq_navi_hover_fontcolor">#00FF00</field>
+            <field name="eq_apps_color">#00FF00</field>
+            <field name="eq_basic_text_color">#00FF00</field>
+            <field name="eq_basic_secondary_color">#00A000</field>
+            <field name="eq_link_color">#00FFFF</field>
+            <field name="eq_btn_primary_background">#00FF00</field>
+            <field name="eq_btn_primary_fontcolor">#000000</field>
+            <field name="eq_btn_secondary_background">#0A0A0A</field>
+            <field name="eq_btn_secondary_fontcolor">#00FF00</field>
+            <field name="eq_list_primary_background">#000000</field>
+            <field name="eq_list_secondary_background">#0A0A0A</field>
+            <field name="eq_list_hoover_background">#143314</field>
+        </record>
+        <record id="eq_itguy_amber_dark" model="eq.colors">
+            <field name="name">IT-Guy Terminal Amber (Dark)</field>
+            <field name="eq_is_dark" eval="True" />
+            <field name="eq_view_background">#000000</field>
+            <field name="eq_navi_background">#000000</field>
+            <field name="eq_navi_fontcolor">#FFB000</field>
+            <field name="eq_navi_hover">#332600</field>
+            <field name="eq_navi_hover_fontcolor">#FFB000</field>
+            <field name="eq_apps_color">#FFB000</field>
+            <field name="eq_basic_text_color">#FFB000</field>
+            <field name="eq_basic_secondary_color">#A87400</field>
+            <field name="eq_link_color">#00FFFF</field>
+            <field name="eq_btn_primary_background">#FFB000</field>
+            <field name="eq_btn_primary_fontcolor">#000000</field>
+            <field name="eq_btn_secondary_background">#0A0A0A</field>
+            <field name="eq_btn_secondary_fontcolor">#FFB000</field>
+            <field name="eq_list_primary_background">#000000</field>
+            <field name="eq_list_secondary_background">#0A0A0A</field>
+            <field name="eq_list_hoover_background">#332600</field>
+        </record>
+        <record id="eq_itguy_cyan_dark" model="eq.colors">
+            <field name="name">IT-Guy Terminal Cyan (Dark)</field>
+            <field name="eq_is_dark" eval="True" />
+            <field name="eq_view_background">#000000</field>
+            <field name="eq_navi_background">#000000</field>
+            <field name="eq_navi_fontcolor">#00FFFF</field>
+            <field name="eq_navi_hover">#003333</field>
+            <field name="eq_navi_hover_fontcolor">#00FFFF</field>
+            <field name="eq_apps_color">#00FFFF</field>
+            <field name="eq_basic_text_color">#00FFFF</field>
+            <field name="eq_basic_secondary_color">#00A0A0</field>
+            <field name="eq_link_color">#00FF00</field>
+            <field name="eq_btn_primary_background">#00FFFF</field>
+            <field name="eq_btn_primary_fontcolor">#000000</field>
+            <field name="eq_btn_secondary_background">#0A0A0A</field>
+            <field name="eq_btn_secondary_fontcolor">#00FFFF</field>
+            <field name="eq_list_primary_background">#000000</field>
+            <field name="eq_list_secondary_background">#0A0A0A</field>
+            <field name="eq_list_hoover_background">#003333</field>
+        </record>
+        <record id="eq_itguy_white_dark" model="eq.colors">
+            <field name="name">IT-Guy Terminal White (Dark)</field>
+            <field name="eq_is_dark" eval="True" />
+            <field name="eq_view_background">#000000</field>
+            <field name="eq_navi_background">#000000</field>
+            <field name="eq_navi_fontcolor">#FFFFFF</field>
+            <field name="eq_navi_hover">#2A2A2A</field>
+            <field name="eq_navi_hover_fontcolor">#FFFFFF</field>
+            <field name="eq_apps_color">#FFFFFF</field>
+            <field name="eq_basic_text_color">#FFFFFF</field>
+            <field name="eq_basic_secondary_color">#A0A0A0</field>
+            <field name="eq_link_color">#00FFFF</field>
+            <field name="eq_btn_primary_background">#FFFFFF</field>
+            <field name="eq_btn_primary_fontcolor">#000000</field>
+            <field name="eq_btn_secondary_background">#0A0A0A</field>
+            <field name="eq_btn_secondary_fontcolor">#FFFFFF</field>
+            <field name="eq_list_primary_background">#000000</field>
+            <field name="eq_list_secondary_background">#0A0A0A</field>
+            <field name="eq_list_hoover_background">#2A2A2A</field>
+        </record>
+
+        <!-- Light counterparts: phosphor hues darkened to at least 4.5:1 on white -->
+        <record id="eq_itguy_green" model="eq.colors">
+            <field name="name">IT-Guy Terminal Green</field>
+            <field name="eq_dark_variant_id" ref="eq_itguy_green_dark" />
+            <field name="eq_view_background">#FFFFFF</field>
+            <field name="eq_navi_background">#0B2B12</field>
+            <field name="eq_navi_fontcolor">#E8FFE8</field>
+            <field name="eq_navi_hover">#0A7A20</field>
+            <field name="eq_navi_hover_fontcolor">#FFFFFF</field>
+            <field name="eq_apps_color">#0A7A20</field>
+            <field name="eq_basic_text_color">#141414</field>
+            <field name="eq_basic_secondary_color">#4A6A50</field>
+            <field name="eq_link_color">#0A7A20</field>
+            <field name="eq_btn_primary_background">#0A7A20</field>
+            <field name="eq_btn_primary_fontcolor">#FFFFFF</field>
+            <field name="eq_btn_secondary_background">#DCE9DE</field>
+            <field name="eq_btn_secondary_fontcolor">#123D1B</field>
+            <field name="eq_list_primary_background">#FFFFFF</field>
+            <field name="eq_list_secondary_background">#EAF7EC</field>
+            <field name="eq_list_hoover_background">#CDEBD3</field>
+        </record>
+        <record id="eq_itguy_amber" model="eq.colors">
+            <field name="name">IT-Guy Terminal Amber</field>
+            <field name="eq_dark_variant_id" ref="eq_itguy_amber_dark" />
+            <field name="eq_view_background">#FFFFFF</field>
+            <field name="eq_navi_background">#2B1D05</field>
+            <field name="eq_navi_fontcolor">#FFF4E0</field>
+            <field name="eq_navi_hover">#8A5A00</field>
+            <field name="eq_navi_hover_fontcolor">#FFFFFF</field>
+            <field name="eq_apps_color">#8A5A00</field>
+            <field name="eq_basic_text_color">#141414</field>
+            <field name="eq_basic_secondary_color">#6E5A38</field>
+            <field name="eq_link_color">#8A5A00</field>
+            <field name="eq_btn_primary_background">#8A5A00</field>
+            <field name="eq_btn_primary_fontcolor">#FFFFFF</field>
+            <field name="eq_btn_secondary_background">#EFE3CE</field>
+            <field name="eq_btn_secondary_fontcolor">#3D2A05</field>
+            <field name="eq_list_primary_background">#FFFFFF</field>
+            <field name="eq_list_secondary_background">#FDF4E5</field>
+            <field name="eq_list_hoover_background">#F5E2BE</field>
+        </record>
+        <record id="eq_itguy_cyan" model="eq.colors">
+            <field name="name">IT-Guy Terminal Cyan</field>
+            <field name="eq_dark_variant_id" ref="eq_itguy_cyan_dark" />
+            <field name="eq_view_background">#FFFFFF</field>
+            <field name="eq_navi_background">#05282B</field>
+            <field name="eq_navi_fontcolor">#E0FFFF</field>
+            <field name="eq_navi_hover">#026E75</field>
+            <field name="eq_navi_hover_fontcolor">#FFFFFF</field>
+            <field name="eq_apps_color">#026E75</field>
+            <field name="eq_basic_text_color">#141414</field>
+            <field name="eq_basic_secondary_color">#3D6669</field>
+            <field name="eq_link_color">#026E75</field>
+            <field name="eq_btn_primary_background">#026E75</field>
+            <field name="eq_btn_primary_fontcolor">#FFFFFF</field>
+            <field name="eq_btn_secondary_background">#D6ECEE</field>
+            <field name="eq_btn_secondary_fontcolor">#04383C</field>
+            <field name="eq_list_primary_background">#FFFFFF</field>
+            <field name="eq_list_secondary_background">#E9F7F8</field>
+            <field name="eq_list_hoover_background">#C7E7EA</field>
+        </record>
+        <record id="eq_itguy_white" model="eq.colors">
+            <field name="name">IT-Guy Terminal White</field>
+            <field name="eq_dark_variant_id" ref="eq_itguy_white_dark" />
+            <field name="eq_view_background">#FFFFFF</field>
+            <field name="eq_navi_background">#1A1A1A</field>
+            <field name="eq_navi_fontcolor">#FFFFFF</field>
+            <field name="eq_navi_hover">#3D3D3D</field>
+            <field name="eq_navi_hover_fontcolor">#FFFFFF</field>
+            <field name="eq_apps_color">#303030</field>
+            <field name="eq_basic_text_color">#141414</field>
+            <field name="eq_basic_secondary_color">#6B6B6B</field>
+            <field name="eq_link_color">#303030</field>
+            <field name="eq_btn_primary_background">#303030</field>
+            <field name="eq_btn_primary_fontcolor">#FFFFFF</field>
+            <field name="eq_btn_secondary_background">#E0E0E0</field>
+            <field name="eq_btn_secondary_fontcolor">#1A1A1A</field>
+            <field name="eq_list_primary_background">#FFFFFF</field>
+            <field name="eq_list_secondary_background">#F2F2F2</field>
+            <field name="eq_list_hoover_background">#DCDCDC</field>
+        </record>
+    </data>
+</odoo>

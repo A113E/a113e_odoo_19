@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+    <t t-name="FieldEQColor">
+        <div class="eq_color_picker_container d-flex align-items-center gap-2">
+            <input
+                type="color"
+                class="eq_color_input"
+                t-ref="eq_color_input"
+                t-att-value="currentColor"
+                t-on-input="onColorChange"
+                t-att-readonly="props.readonly"
+            />
+            <input
+                type="text"
+                class="form-control eq_color_text_input"
+                t-ref="eq_text_input"
+                t-att-value="currentColor"
+                t-on-change="onTextChange"
+                t-att-readonly="props.readonly"
+                maxlength="7"
+                placeholder="#000000"
+            />
+        </div>
+    </t>
+</templates>
