@@ -1,0 +1,15 @@
+/* Estilo personalizado del nombre de la base de datos en modo desarrollador */
+.o_main_navbar .o_menu_systray mark.font-monospace {
+    background-color: #0077B6 !important;
+    color: #f5f0ff !important;
+    padding: 2px 8px !important;
+    border-radius: 4px !important;
+    font-size: 0.8rem !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+}
+
+.o_main_navbar .o_menu_systray mark.font-monospace .fa-database {
+    color: #f5f0ff !important;
+}
+
+

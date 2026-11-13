@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Paleta oscura -->
+    <record id="a113e_dark" model="eq.colors">
+        <field name="name">A113E (Dark)</field>
+        <field name="eq_is_dark" eval="True"/>
+        <field name="eq_view_background">#0A1428</field>
+        <!-- Navegación -->
+        <field name="eq_navi_background">#060E1F</field>
+        <field name="eq_navi_fontcolor">#E6F4FF</field>
+        <field name="eq_navi_hover">#0E3B63</field>
+        <field name="eq_navi_hover_fontcolor">#FFFFFF</field>
+        <field name="eq_apps_color">#3DD0FF</field>
+        <!-- Texto y enlaces -->
+        <field name="eq_basic_text_color">#E6EEF8</field>
+        <field name="eq_basic_secondary_color">#93A4BD</field>
+        <field name="eq_link_color">#3DD0FF</field>
+        <!-- Botones: celeste del logo con texto marino (8.7:1) -->
+        <field name="eq_btn_primary_background">#00BFFF</field>
+        <field name="eq_btn_primary_fontcolor">#0A1428</field>
+        <field name="eq_btn_secondary_background">#16284A</field>
+        <field name="eq_btn_secondary_fontcolor">#E6EEF8</field>
+        <!-- Superficies: de más oscura a más clara -->
+        <field name="eq_list_primary_background">#0D1B36</field>
+        <field name="eq_list_secondary_background">#132645</field>
+        <field name="eq_list_hoover_background">#1E3A63</field>
+    </record>
+
+    <!-- Paleta Clara -->
+    <record id="a113e" model="eq.colors">
+        <field name="name">A113E</field>
+        <field name="eq_dark_variant_id" ref="a113e_dark"/>
+        <field name="eq_view_background">#FFFFFF</field>
+        <!-- Navegación: marino del logo; hover celeste con texto marino -->
+        <field name="eq_navi_background">#0A2250</field>
+        <field name="eq_navi_fontcolor">#FFFFFF</field>
+        <field name="eq_navi_hover">#00BFFF</field>
+        <field name="eq_navi_hover_fontcolor">#0A2250</field>
+        <field name="eq_apps_color">#0077B6</field>
+        <!-- Texto y enlaces -->
+        <field name="eq_basic_text_color">#0F1E3D</field>
+        <field name="eq_basic_secondary_color">#5B6B85</field>
+        <field name="eq_link_color">#0077B6</field>
+        <!-- Botones: azul medio con texto blanco (4.9:1) -->
+        <field name="eq_btn_primary_background">#0077B6</field>
+        <field name="eq_btn_primary_fontcolor">#FFFFFF</field>
+        <field name="eq_btn_secondary_background">#E4EEF7</field>
+        <field name="eq_btn_secondary_fontcolor">#0A2250</field>
+        <!-- Listas: tintes suaves de celeste -->
+        <field name="eq_list_primary_background">#FFFFFF</field>
+        <field name="eq_list_secondary_background">#F4F8FC</field>
+        <field name="eq_list_hoover_background">#D9ECF9</field>
+    </record>
+</odoo>
